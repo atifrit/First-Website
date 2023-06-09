@@ -1,0 +1,35 @@
+.navbar ul{
+    border-top: 4px solid #272838;
+    border-bottom: 4px solid #272838;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin:auto;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #272838;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.mainheader {
+    margin: auto;
+    padding: 10px;
+}
+
+.mainheader h1{
+    font-size: 50px;
+    color: #272838;
+    margin: auto;
+    padding: 10px;
+}
