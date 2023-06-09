@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="cssreset.css">
+        <link rel="stylesheet" href="styles.css">
+        <title></title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Submit Comments</a></li>
+                    <li><a href="links.html">Links</a></li>
+                    <li><a href="pictures.html">Photos</a></li>
+                </ul>
+            </nav>
+            <div class = formarea>
+                <form method="post" action="submit.html">
+                    <fieldset>
+                        <label for="text1" class="label">First Name:</label>
+                        <input type="text" id="text1">
+                        <label for="text2" class="label">Last Name:</label>
+                        <input type="text" id="text2">
+                        <label for="area" class="label">Comment:</label>
+                        <textarea id="area"></textarea>
+                        <label for="check" class="checklabel">Anonymous Comment</label>
+                        <input type="checkbox" id="check">
+                        <button type="submit" id="submitbutton">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
