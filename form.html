@@ -10,6 +10,7 @@
 <body>
     <div class="container">
         <nav class="navbar">
+            <a href="index.html"><img src="logo.png" alt="logo"></a>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="form.html">Submit Comments</a></li>
@@ -17,24 +18,33 @@
                 <li><a href="pictures.html">Photos</a></li>
             </ul>
         </nav>
-        <div class=formarea>
+        <div class="formheaderarea">
+            <h1 class="formheader">Submit Comments</h1>
+        </div>
+        <div class="formarea">
             <form method="post" action="submit.html">
-                <fieldset>
-                    <div class="textbox1">
+                <fieldset class="fieldsetarea">
+                    <div class="textbox1label">
                         <label for="text1" class="label">First Name:</label>
+                    </div>
+                    <div class="textbox1">
                         <input type="text" id="text1">
                     </div>
-                    <div class="textbox2">
+                    <div class="textbox2label">
                         <label for="text2" class="label">Last Name:</label>
+                    </div>
+                    <div class="textbox2">
                         <input type="text" id="text2">
                     </div>
-                    <div class="comment">
+                    <div class="commentlabel">
                         <label for="area" class="label">Comment:</label>
+                    </div>
+                    <div class="comment">
                         <textarea id="area"></textarea>
                     </div>
                     <div class="checkbox">
-                        <label for="check" class="checklabel">Anonymous Comment</label>
                         <input type="checkbox" id="check">
+                        <label for="check" class="checklabel">Anonymous Comment</label>
                     </div>
                     <div class="buttonend">
                         <button type="submit" id="submitbutton">Submit</button>

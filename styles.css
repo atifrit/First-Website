@@ -1,35 +1,320 @@
-.navbar ul{
-    border-top: 4px solid #272838;
+.navbar {
     border-bottom: 4px solid #272838;
-    margin: auto;
+    box-shadow: 3px 0px 5px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.navbar ul{
+    margin-left: 700px;
     display: flex;
     justify-content: space-around;
-
 }
 
 .navbar ul li{
     display: inline-block;
     margin:auto;
     list-style: none;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 0px;
 }
 
 .navbar ul li a{
     text-decoration: none;
     color: #272838;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .mainheader {
+    display: flex;
+    justify-content: center;
     margin: auto;
     padding: 10px;
 }
 
 .mainheader h1{
+    font-family: sans-serif;
     font-size: 50px;
     color: #272838;
     margin: auto;
     padding: 10px;
+}
+
+.indeximage {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.indeximage img {
+    width: auto;
+    max-height: 600px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.threesections {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.section {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    background-color: lightgrey;
+    margin: 10px;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.formheaderarea {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.formheader {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #272838;
+}
+
+.formarea {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fieldsetarea {
+    max-width: 300px;
+    max-height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.textbox1label {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.textbox1 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.textbox2label {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.textbox2 {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.commentlabel {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.comment {
+    grid-column: 2;
+    grid-row: 6;
+}
+
+textarea {
+    resize: none;
+    max-width: 200px;
+    max-height: 200px;
+}
+.checkbox {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.buttonend {
+    margin: auto;
+    grid-column: 2;
+    grid-row: 8;
+}
+
+.label {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #272838;
+    padding: 5px;
+}
+
+.checklabel {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #272838;
+    padding: 5px;
+}
+
+#check {
+    width: 20px;
+    height: 20px;
+}
+
+#submitbutton {
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.linklists {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.linklist {
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    border: 2px solid black;
+    width: 300px;
+    height: 400px;
+    background-color: lightgrey;
+}
+
+.linktitle {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.actuallinks {
+    display: flex;
+    height: 360px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.actuallinks li a {
+    text-decoration: none;
+    color: #272838;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.linkheader {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.actuallinkheader {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #272838;
+}
+
+.photogrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px 500px;
+}
+
+.catpic {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    margin: 20px;
+}
+
+.catlabel {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.cat1pic {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.cat2pic {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.cat3pic {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.cat4pic {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.cat5pic {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.cat6pic {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.catdiv{
+    width: 340px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
